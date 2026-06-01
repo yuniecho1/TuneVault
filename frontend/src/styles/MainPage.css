@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #0E0C0A;
+    color: #F0EBE1;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .main-page {
+    min-height: 100vh;
+    background-color: #0E0C0A;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1A1713;
+    border-bottom: 1px solid #2E2820;
+  }
+  
+  .main-header h1 {
+    font-size: 22px;
+    color: #F0EBE1;
+  }
+  
+  .main-user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    color: #8A8070;
+  }
+  
+  .logout-btn {
+    background: none;
+    border: 1px solid #2E2820;
+    border-radius: 8px;
+    color: #8A8070;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .logout-btn:hover {
+    border-color: #E05252;
+    color: #E05252;
+  }
+  
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #2E2820;
+  }
+  
+  .section h2 {
+    font-size: 16px;
+    color: #F5A623;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  
+  .empty-msg {
+    color: #8A8070;
+    font-size: 14px;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .search-form input {
+    background-color: #1A1713;
+    border: 1px solid #2E2820;
+    border-radius: 8px;
+    color: #F0EBE1;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    padding: 10px 16px;
+    outline: none;
+    width: 200px;
+    transition: border-color 0.2s;
+  }
+  
+  .search-form input:focus {
+    border-color: #D4890A;
+  }
+  
+  .search-btn {
+    background-color: #D4890A;
+    color: #0E0C0A;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .search-btn:hover {
+    background-color: #F5A623;
+  }
+  
+  .subscription-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .song-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #1A1713;
+    border: 1px solid #2E2820;
+    border-radius: 12px;
+    padding: 16px 20px;
+    transition: border-color 0.2s;
+  }
+  
+  .song-card:hover {
+    border-color: #D4890A;
+  }
+  
+  .artist-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #2E2820;
+    flex-shrink: 0;
+  }
+  
+  .song-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .song-info p {
+    font-size: 13px;
+    color: #8A8070;
+    margin: 0;
+  }
+  
+  .song-info p strong {
+    font-size: 15px;
+    color: #F0EBE1;
+  }
+  
+  .remove-btn {
+    background: none;
+    border: 1px solid #E05252;
+    border-radius: 8px;
+    color: #E05252;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    flex-shrink: 0;
+  }
+  
+  .remove-btn:hover {
+    background-color: rgba(224, 82, 82, 0.1);
+  }
+  
+  .subscribe-btn {
+    background: none;
+    border: 1px solid #D4890A;
+    border-radius: 8px;
+    color: #D4890A;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    flex-shrink: 0;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: rgba(212, 137, 10, 0.1);
+  }

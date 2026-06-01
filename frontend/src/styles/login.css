@@ -1,0 +1,117 @@
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E0C0A;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .login-card {
+    background-color: #1A1713;
+    border: 1px solid #2E2820;
+    border-radius: 16px;
+    padding: 44px 48px;
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+  }
+  
+  .login-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .login-brand h1 {
+    font-size: 26px;
+    color: #F0EBE1;
+    margin: 0;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-field label {
+    font-size: 11px;
+    color: #8A8070;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+  
+  .form-field input {
+    background-color: #0E0C0A;
+    border: 1px solid #2E2820;
+    border-radius: 8px;
+    color: #F0EBE1;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    padding: 12px 16px;
+    outline: none;
+    transition: border-color 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-field input:focus {
+    border-color: #D4890A;
+  }
+  
+  .error-message {
+    font-size: 13px;
+    color: #E05252;
+    padding: 10px 14px;
+    background-color: rgba(224, 82, 82, 0.08);
+    border: 1px solid rgba(224, 82, 82, 0.2);
+    border-radius: 8px;
+    margin: 0;
+  }
+  
+  .submit-btn {
+    background-color: #D4890A;
+    color: #0E0C0A;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 4px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #F5A623;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #7A5208;
+    cursor: not-allowed;
+  }
+  
+  .register-link {
+    text-align: center;
+    font-size: 13px;
+    color: #8A8070;
+    margin-top: 28px;
+    margin-bottom: 0;
+  }
+  
+  .register-link a {
+    color: #F5A623;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
